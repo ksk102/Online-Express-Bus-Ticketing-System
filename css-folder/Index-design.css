@@ -1,0 +1,191 @@
+#main-content
+{
+	width:auto;
+	height:665px;
+	margin-top:5px;
+	font-family:Arial;
+}
+
+#content-top
+{
+	width:auto;
+	height:300px;
+}
+
+#content-right
+{
+	width:728px;
+	height:640px;
+	float:left;
+}
+
+#content-right-announcement
+{
+	border-top:none;
+	width:605px;
+	height:630px;
+	float:left;
+	margin-left:30px;
+}
+
+#content-right-announcement-title
+{
+	margin-right:-6px;
+	margin-left:9px;
+	height:35px;
+	background-color:#3535d5;
+	color:white;
+	padding-left:1px;
+	padding-top:5px;
+	width:650px;
+}
+
+#content-right-announcement-title p
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:18px;
+	margin-left:10px;
+	margin-top:3px;
+}
+
+#content-right-announcement-title h3
+{
+	margin-top:10px;
+}
+
+#content-right-announcement-content-wrapper
+{
+	height:520px;
+	padding:0px 10px;
+}
+
+#content-right-announcement-content-wrapper2
+{
+	border-bottom:1px solid grey;
+	height:75px;
+	margin-bottom:25px;
+	font-family:Arial;
+	padding:0px 5px;
+}
+
+#content-right-announcement-content
+{
+	height:47px;
+}
+
+#content-right-announcement-content a
+{
+	color:#0d4da1;
+	text-decoration:none;
+}
+
+#content-right-announcement-content a:hover
+{
+	color:orange;
+}
+
+#content-right-announcement-by
+{
+	color:#999999;
+}
+
+#content-right-announcement-all
+{
+	height:40px;
+}
+
+#content-right-announcement-viewall ul
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0 40%;
+}
+
+#content-right-announcement-viewall ul li
+{
+	text-align:center;
+	width:120px;
+	height:20px;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	padding-top:3px;
+	float:left;
+	border-radius:10px;
+	border:1px solid grey;
+	background-color:#0d4da1;
+	margin-top:5px;
+	box-shadow:0px 5px 10px #CCCCCC
+}
+
+#content-right-announcement-viewall ul li:hover
+{
+	background-color:#666666;
+}
+
+#content-step
+{
+	border:1px solid #888888;
+	width:220px;
+	height:532px;
+	float:left;
+	margin-top:80px;
+	margin-left:5px;
+	box-shadow:0px 5px 10px #CCCCCC;
+}
+
+#content-step-title
+{
+	height:30px;
+	background-color:#888888;
+	color:white;
+	padding:1px;
+	
+}
+
+#content-step-title p
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:14px;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+/*#content-step img
+{
+	margin-left:20%;
+	margin-top:10%
+}*/
+
+#content-step img
+{
+	margin-left:5%;
+}
+
+.links ul
+{
+	list-style-type: none;
+	padding-left:0;
+}
+
+#announcepopup hr
+{
+	margin-top:-15px;
+}
+
+#announcepopup h4
+{
+	margin-top:5px;
+}
+
+#announcepopup p
+{
+	font-size:11pt;
+}
+
+#announcepopup
+{
+	font-family:Arial;
+}

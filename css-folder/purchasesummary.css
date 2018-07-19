@@ -1,0 +1,94 @@
+#main-content
+{
+	font-family:Arial;
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	margin-top:40px;
+	background-color:white;
+	padding-bottom:50px;
+}
+
+#main-content-title
+{
+	font-size:14pt;
+	font-family:Arial;
+}
+
+#maincontent
+{
+	border:1px solid #dddddd;
+	width:970px;
+	margin-left:10px;
+	box-shadow:0px 0.5px 10px #CCCCCC;
+	padding:10px;
+}
+
+#passengerinfo
+{
+	width:950px;
+	border-collapse:collapse;
+	border:1px solid silver;
+	margin:10px;
+	height:150px;
+}
+
+#passengerinfo th
+{
+	color:white;
+	background-color:#e45000;
+	text-align:left;
+	padding-left:10px;
+}
+
+#passengerinfo td
+{
+	padding-left:10px;
+}
+
+#routeinfo
+{
+	width:950px;
+	border-collapse:collapse;
+	border:1px solid silver;
+	margin:10px;
+	height:150px;
+	margin-top:30px;
+}
+
+#routeinfo tr,#routeinfo td,#routeinfo th
+{
+	border:1px solid silver;
+}
+
+#routeinfo th
+{
+	color:white;
+	background-color:#0c6280;
+}
+
+#routeinfo td
+{
+		text-align:center;
+}
+
+#disclaimer
+{
+	font-size:8pt;
+	color:#888;
+}
+
+#pdfbtn input[type="submit"]
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:130px;
+	padding-left:5px;
+	height:25px;
+	margin-left:830px;
+}
+
+#pdfbtn input[type="submit"]:hover
+{
+	background-color:#eeeeee;
+}

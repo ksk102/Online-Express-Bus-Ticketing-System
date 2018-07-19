@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.4</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>IndexSlider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>300</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>E:/Program Files/WOW Slider/templates/backgnd/easy/</ImageTemplate>
+            <ImageTemplateName>Easy</ImageTemplateName>
+            <ImageWidth>1200</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>true</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/user/Documents/WOW Slider/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/user/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>Exo 2</TemplateFont>
+            <TemplateName>easy</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/50% off.jpg</url>
+                <title>50% off</title>
+                <filesize>252006</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/Book by Phone.jpg</url>
+                <title>Book by Phone</title>
+                <filesize>216131</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/Cheapest Price.jpg</url>
+                <title>Cheapest Price</title>
+                <filesize>343698</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/KKKL.JPG</url>
+                <title>KKKL</title>
+                <filesize>261348</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/Mayang Sari.jpg</url>
+                <title>Mayang Sari</title>
+                <filesize>240282</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype Design/Prototype/DEMO/1200x300/Editted/Transnational.jpg</url>
+                <title>Transnational</title>
+                <filesize>249714</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

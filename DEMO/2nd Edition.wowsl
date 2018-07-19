@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.4</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>2nd Edition</GalleryName>
+            <GallerySuffix>0</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>carousel_basic</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>450</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>E:/Program Files/WOW Slider/templates/backgnd/elemental/</ImageTemplate>
+            <ImageTemplateName>Elemental</ImageTemplateName>
+            <ImageWidth>490</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/Index.html</PublishFileName>
+            <PublishIndex>Index.html</PublishIndex>
+            <PublishPath>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>50</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>Open Sans</TemplateFont>
+            <TemplateName>elemental</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Advantage.jpg</url>
+                <title>Advantage</title>
+                <filesize>79273</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Bus Booking System.jpg</url>
+                <title>Bus Booking System</title>
+                <filesize>88933</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Happy CNY.jpg</url>
+                <title>Happy CNY</title>
+                <filesize>88750</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Happy New Year.jpg</url>
+                <title>Happy New Year</title>
+                <filesize>86975</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/KKKL.jpg</url>
+                <title>KKKL</title>
+                <filesize>177497</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Transnational.jpg</url>
+                <title>Transnational</title>
+                <filesize>138911</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x490/Book Now.jpg</url>
+                <title>Book Now</title>
+                <filesize>11019</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x490/Online Bus Ticket Reservation System.jpg</url>
+                <title>Online Bus Ticket Reservation System</title>
+                <filesize>41096</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,157 @@
+#content
+{
+	width:auto;
+	height:800px;
+	margin-top:5px;
+}
+
+#content-wrapper
+{
+	width:1080px;
+	height:770px;
+	background-color:white;
+}
+
+#content-right
+{
+	width:713px;
+	height:640px;
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+}
+
+#content-right-companydetail
+{
+	border:3px solid #36F;
+	border-top:none;
+	width:765px;
+	height:757px;
+	float:left;
+	margin-left:10px;
+	box-shadow:0px 5px 10px #CCCCCC
+}
+
+#content-right-companydetail-title
+{
+	margin-right:-6px;
+	margin-left:-6px;
+	height:30px;
+	background-color:#56F;
+	color:white;
+	padding:1px;
+	box-shadow:0px 5px 10px #CCCCCC	
+}
+
+#content-right-companydetail-title p
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:18px;
+	margin-left:10px;
+	margin-top:3px;
+}
+
+#company-pic
+{
+	padding:0px;
+	margin-top:15px;
+	margin-left:140px;
+	margin-right:100px;
+}
+
+#content-right-companydetail-content-wrapper2 p
+{
+	padding:25px;
+	padding-bottom:5px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	margin-bottom:40px;
+	line-height:19px;
+}
+
+#company-location,
+#company-phone,
+#company-email
+{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:10px;	
+	padding:10px 10px;
+	font-size:10.5pt;
+}
+
+#company-location img,
+#company-phone img,
+#company-email img
+{
+	float:left;
+	width:40px;
+	height:40px;
+	margin: -10px 15px 0 0;
+}
+
+#company-location input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:620px;
+	padding-left:5px;
+	height:25px;
+}
+
+#company-phone input,
+#company-email input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:170px;
+	padding-left:5px;
+	height:25px;
+}
+
+#content-right-companydetail-content-wrapper2 textarea
+{
+	resize:none;
+	width:690px;
+	height:145px;
+	border:1px solid black;
+	border-radius:5px;
+}
+
+#content-right-companydetail-content-wrapper
+{
+	padding:0 10px;	
+}
+
+#editcompany-btn 
+{
+	width:270px;
+	margin-left:610px;
+	margin-top:58px;
+}
+
+#savecompany-btn
+{
+	width:270px;
+	margin-left:610px;
+	margin-top:15px;
+}
+
+#editcompany-btn input[type="button"],
+#savecompany-btn input[type="submit"]
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:130px;
+	padding-left:5px;
+	height:25px;
+}
+
+#editcompany-btn input[type="button"]:hover,
+#savecompany-btn input[type="submit"]:hover
+{
+	background-color:#eeeeee;
+}

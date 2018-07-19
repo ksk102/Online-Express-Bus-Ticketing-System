@@ -1,0 +1,103 @@
+#book-step
+{
+	
+}
+
+#search_table
+{
+	padding:20px;
+	height:500px;
+}
+
+#search-table-title
+{
+	text-align:left;
+	font-size:14pt;
+	font-family:Arial;
+	margin-bottom:30px;
+}
+
+#content-left-content-form
+{
+	border:1px solid #bbbbbb;
+	margin-top:0px;
+	height:260px;
+	width:1000px;
+	padding:10px;
+	background-color:white;
+}
+
+#content-left-content-form p
+{
+	font-family:Arial;
+	font-size:11pt;
+}
+
+#content-left-content-form input
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:131px;
+	padding-left:5px;
+	height:20px;
+	margin-top:5px;
+}
+
+#content-left-content-form select
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:139px;
+	padding-left:5px;
+	height:25px;
+}
+#content-left-content-form input[type="submit"]
+{
+	height:25px;
+}
+
+#content-left-content-form input[type="submit"]:hover
+{
+	background-color:#eeeeee;
+}
+
+#content-left-content-form-top-content
+{
+	width:330px;
+	margin-left:5px;
+	height:90px;
+}
+
+#content-left-content-form-top-content p
+{
+	font-style:italic;
+}
+
+#content-left-content-form-top
+{
+	float:left;
+	width:297px;
+	height:200px;
+	margin-top:-1px;
+	margin-right:15px;
+}
+
+#search-ticket-group
+{
+	width:150px;
+	float:left;
+	margin-bottom:20px;
+	margin-left:100px;
+}
+
+#date_time
+{
+	width:160px;
+	float:left;
+	margin-bottom:30px;
+}
+
+#disclaimer
+{
+	padding:10px;
+}

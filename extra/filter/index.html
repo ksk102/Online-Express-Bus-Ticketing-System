@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/filter.css" />
+	</head>
+	<body>
+		<div id="st-container" class="st-container">
+			<!-- 	
+				example menus 
+				these menus will be on top of the push wrapper
+			-->
+			<nav class="st-menu st-effect-1" id="menu-1">
+				<h2 class="icon icon-lab">Sidebar</h2>
+				<div id="top-filter">
+					<div id="content-left">
+						<form name="filterfrm" method="" action="">
+							<div id="content-left-title"><p>Filter</p></div>
+								<div id="content-left-content-form">
+									<div id="content-left-content-form-divide">
+										<div id="content-left-content-form-top">
+											<div id="content-left-content-form-top-content">
+												<p>Schedule ID</p>
+													<input type="text" name="sch_id" value=""/>
+											</div>
+										</div>
+										<div class="departarrive">
+											<div id="content-left-content-form-top-content">
+												<p>Pick-up</p>
+													<select id="seacrhdepart" size="1" onchange="selectdepart()">
+														<option value="none" selected>--Select a State--</option>
+														<optgroup label="Central Region">
+															<option value="KUL">Kuala Lumpur</option>
+															<option value="NSN">Negeri Sembilan</option>
+															<option value="SGR">Selangor</option>
+														</optgroup>
+														<optgroup label="Southern Region">
+															<option value="JHR">Johor</option>
+															<option value="MLK">Malacca</option>
+														</optgroup>
+														<optgroup label="Northern Region">
+															<option value="KDH">Kedah</option>
+															<option value="PRK">Perak</option>
+															<option value="PLS">Perlis</option>
+															<option value="PNG">Pulau Pinang</option>
+														</optgroup>
+														<optgroup label="East Coast Region">
+															<option value="KTN">Kelantan</option>
+															<option value="PHG">Pahang</option>
+															<option value="TRG">Terengganu</option>
+														</optgroup>
+													</select>
+											</div>
+												<div id="content-left-content-form-top-content">
+													<div style="margin-top:45px;">
+														<span id="depart"></span>
+													</div>
+												</div>
+											<div id="content-left-content-form-top-content">
+												<p>Drop-off</p>
+													<select id="seacrharrive" size="1" onchange="selectarrive()">
+													<option value="none" selected>--Select a State--</option>
+													<optgroup label="Central Region">
+														<option value="KUL">Kuala Lumpur</option>
+														<option value="NSN">Negeri Sembilan</option>
+														<option value="SGR">Selangor</option>
+													</optgroup>
+													<optgroup label="Southern Region">
+														<option value="JHR">Johor</option>
+														<option value="MLK">Malacca</option>
+													</optgroup>
+													<optgroup label="Northern Region">
+														<option value="KDH">Kedah</option>
+														<option value="PRK">Perak</option>
+														<option value="PLS">Perlis</option>
+														<option value="PNG">Pulau Pinang</option>
+													</optgroup>
+													<optgroup label="East Coast Region">
+														<option value="KTN">Kelantan</option>
+														<option value="PHG">Pahang</option>
+														<option value="TRG">Terengganu</option>
+													</optgroup>
+												</select>
+											</div>
+											<div id="content-left-content-form-top-content">
+												<div style="margin-top:45px;">
+													<span id="arrive"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div id="content-left-content-form-divide">
+										<div id="content-left-content-form-top">
+											<div id="content-left-content-form-top-content">
+												<p>Day</p>
+													<select name="schday">
+														<option value="none">--Select a Day--</option>
+														<option value="Sunday">Sunday</option>
+														<option value="Monday">Monday</option>
+														<option value="Tuesday">Tuesday</option>
+														<option value="Wednesday">Wednesday</option>
+														<option value="Thursday">Thursday</option>
+														<option value="Friday">Friday</option>
+														<option value="Saturday">Saturday</option>
+													</select>
+											</div>
+											<div id="content-left-content-form-top-content">
+												<p>Price</p>
+												<input type="text" name="ticketprice">
+											</div>
+										</div>
+									
+										<div id="content-left-content-form-top">
+											<div id="content-left-content-form-top-content">
+												<p>Between</p>
+													<input type="time" name="time" value="00:00"/>
+											</div>
+											<div id="content-left-content-form-top-content">
+												<p>To</p>
+													<input type="time" name="time" value="23:59"/>
+											</div>
+										</div>
+										<div id="content-left-content-form-top">
+											<div id="content-left-content-form-top-content">
+												<p>Duration</p>
+													<select name="duration">
+														<option value="none">--Select Travel Duration--</option>
+														<option value="1">1 Hour</option>
+														<option value="1.5">1 Hour 30 Minutes</option>
+														<option value="2">2 Hours</option>
+														<option value="2.5">2 Hours 30 Minutes</option>
+														<option value="3">3 Hours</option>
+														<option value="3.5">3 Hours 30 Minutes</option>
+														<option value="4">4 Hours</option>
+														<option value="4.5">4 Hours 30 Minutes</option>
+														<option value="5">5 Hours</option>
+														<option value="5.5">5 Hours 30 Minutes</option>
+														<option value="6">6 Hours</option>
+														<option value="6.5">6 Hours 30 Minutes</option>
+														<option value="7">7 Hours</option>
+														<option value="7.5">7 Hours 30 Minutes</option>
+														<option value="8">8 Hours</option>
+														<option value="8.5">8 Hours 30 Minutes</option>
+														<option value="9">9 Hours</option>
+														<option value="9.5">9 Hours 30 Minutes</option>
+														<option value="10">10 Hours</option>
+														<option value="10.5">10 Hours 30 Minutes</option>
+														<option value="10">11 Hours</option>
+														<option value="11.5">11 Hours 30 Minutes</option>
+														<option value="10">12 Hours</option>
+													</select>
+											</div>
+											<div id="content-left-content-form-top-content">
+												<p>Rest Time</p>
+													<select name="reattime">
+														<option value="none">--Select Rest Time--</option>
+														<option value="0">No Rest Time</option>
+														<option value="1">1 Hour</option>
+														<option value="1.5">1 Hour 30 Minutes</option>
+														<option value="2">2 Hours</option>
+														<option value="2.5">2 Hours 30 Minutes</option>
+														<option value="3">3 Hours</option>
+													</select>
+											</div>
+										</div>
+									</div>
+									<input type="button" name="filter" value="Filter"/>
+								</div>
+						</form>
+					</div>
+					</div>
+			</nav>
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<div class="main clearfix">
+							<div id="st-trigger-effects" class="column">
+								<button data-effect="st-effect-1">Slide in on top</button>
+							</div>
+						</div><!-- /main -->
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+		<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
+	</body>
+</html>

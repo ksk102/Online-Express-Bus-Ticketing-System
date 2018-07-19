@@ -1,0 +1,90 @@
+#content-wrapper
+{
+	font-family:Arial;
+	width:1080px;
+	height:640px;
+	background-color:white;
+}
+
+#newschedule-wrapper
+{
+	width: 800px;
+	height:inherit;
+	margin-left:20px;
+	background-color:#FFF;
+	float:left;
+}
+
+#newschedule-wrapper-title
+{
+	text-align:left;
+	font-size:14pt;
+	font-family:Arial;
+	margin-bottom:30px;
+}
+
+#newschedulefrm
+{
+	border:1px solid #dddddd;
+	width:750px;
+	margin-left:10px;
+	box-shadow:0px 0.5px 10px #CCCCCC;
+}
+
+#newschedulefrm table
+{
+	margin:10px;
+	border-collapse:collapse;
+	height:400px;
+	width:700px;
+}
+
+#newschedulefrm table input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:180px;
+	padding-left:5px;
+	height:25px;
+}
+
+#newschedulefrm table select
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:187px;
+	padding-left:5px;
+	height:25px;
+}
+
+#newschedulefrm p
+{
+	border:1px solid red;
+	width:270px;
+	font-size:10pt;
+	padding-left:5px;
+}
+
+#newschedule-btn 
+{
+	width:220px;
+	margin-top:90px;
+	margin-bottom:10px;
+	margin-left:510px;
+}
+
+#newschedule-btn input[type="submit"], input[type="reset"]
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:100px;
+	padding-left:5px;
+	height:25px;
+}
+
+#newschedule-btn input[type="submit"]:hover, input[type="reset"]:hover
+{
+	background-color:#eeeeee;
+}

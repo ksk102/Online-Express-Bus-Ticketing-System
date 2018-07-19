@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BusForAll.com | Book Your Book Ticket Online Now!</title>
+		
+		<link href="css-folder/page-wrapper.css" rel="stylesheet" type="text/css"/>
+		<link href="css-folder/bottom navigation.css" rel="stylesheet" type="text/css"/>
+		<link href="css-folder/header.css" rel="stylesheet" type="text/css"/>
+		<link href="css-folder/index-design.css" rel="stylesheet" type="text/css"/>
+		
+		<script src="js-folder/index.js" type="text/javascript"></script>
+		
+		
+	</head>
+	
+	<body>
+	<div id="container">
+			<div id="header">
+				<div id="header-left">
+					<a href="index.html" target="_self"><img src="images/busforall-logo.jpg" height="100px" weight="190px" alt="logo" title="Home"/></a>					                    </a>
+				</div>
+				<div id="header-right">
+					<a href="signup-page.html" target="_self">Sign up</a>
+				</div>
+				<div id="header-right">
+					<a href="Signin.html" target="_self">Login</a>
+				</div>
+				<div id="header-navi-wrapper">
+					<div id='header-navi'>
+						<ul>
+						   <li class='active'><a href='index.html'><span>Home</span></a></li>
+						   <li><a href='#'><span>How to Purchase</span></a></li>
+						   <li><a href='#'><span>Book Ticket</span></a></li>
+						   <li><a href='Our%20Partner.html'><span>Our Partner</span></a></li>
+						   <li><a href='#'><span>About Us</span></a></li>
+						   <li><a href='#'><span>Contact Us</span></a></li>
+						   <li class='last'><a href='FAQ.html'><span>FAQ</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="content">
+				<div id="content-top">
+				
+					
+				</div>
+				<div id="main-content">
+				<div id="content-left">
+						<div id="content-left-content">
+							<form name="searchfrm" method="" action="">
+								<div id="content-left-content-title"><p>Search Bus Ticket</p></div>
+									<div id="content-left-content-top">
+										<div id="content-left-content-top-navi">
+											<ul>
+												<li style="color:#444444;background-color:white;">One Way Trip</li>
+											</ul>
+										</div>
+										<div id="content-left-content-top-navi">
+											<ul>
+												<a href="#"><li>Round Trip</li></a>
+											</ul>
+										</div>
+									</div>
+									<div id="content-left-content-form">
+										<div id="content-left-content-form-top">
+											<div id="content-left-content-form-top-content">
+												<p>Depart From</p>
+													<select id="seacrhdepart" size="1" onchange="selectdepart()">
+														<option value="none" selected>--Select a State--</option>
+														<optgroup label="Central Region">
+															<option value="KUL">Kuala Lumpur</option>
+															<option value="NSN">Negeri Sembilan</option>
+															<option value="SGR">Selangor</option>
+														</optgroup>
+														<optgroup label="Southern Region">
+															<option value="JHR">Johor</option>
+															<option value="MLK">Malacca</option>
+														</optgroup>
+														<optgroup label="Northern Region">
+															<option value="KDH">Kedah</option>
+															<option value="PRK">Perak</option>
+															<option value="PLS">Perlis</option>
+															<option value="PNG">Pulau Pinang</option>
+														</optgroup>
+														<optgroup label="East Coast Region">
+															<option value="KTN">Kelantan</option>
+															<option value="PHG">Pahang</option>
+															<option value="TRG">Terengganu</option>
+														</optgroup>
+													</select>
+												<br/><br/>
+												<span id="depart"></span><br/>
+											</div>
+											<div id="content-left-content-form-top-content">
+												<p>Arrive To</p>
+													<select id="seacrharrive" size="1" onchange="selectarrive()">
+														<option value="none" selected>--Select a State--</option>
+														<optgroup label="Central Region">
+															<option value="KUL">Kuala Lumpur</option>
+															<option value="NSN">Negeri Sembilan</option>
+															<option value="SGR">Selangor</option>
+														</optgroup>
+														<optgroup label="Southern Region">
+															<option value="JHR">Johor</option>
+															<option value="MLK">Malacca</option>
+														</optgroup>
+														<optgroup label="Northern Region">
+															<option value="KDH">Kedah</option>
+															<option value="PRK">Perak</option>
+															<option value="PLS">Perlis</option>
+															<option value="PNG">Pulau Pinang</option>
+														</optgroup>
+														<optgroup label="East Coast Region">
+															<option value="KTN">Kelantan</option>
+															<option value="PHG">Pahang</option>
+															<option value="TRG">Terengganu</option>
+														</optgroup>
+													</select>
+													<br/><br/>
+													<span id="arrive"></span>
+											</div>
+										</div>
+											<div id="content-left-content-form-top">
+												<div id="content-left-content-form-top-content">
+													<p>Departure Date</p>
+														<input type="date" name="departdate"/>
+												</div>
+											</div>
+											<div id="content-left-content-form-top">
+												<div id="content-left-content-form-top-content">
+													<p>Number of Seat</p>
+													<select name="seatno">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+													</select>
+												</div>
+											</div>
+											
+											<a href="search-result.html#Search-Result"><input type="button" name="search" value="Search" style="float:right"/></a>
+										
+									</div>
+							</form>
+						</div>
+				</div>
+				<div id="content-right">
+					<div id="content-right-announcement">
+						<div id="content-right-announcement-title">
+							<p>Announcement</p>
+						</div>
+							<div id="content-right-announcement-content-wrapper">
+								<div id="content-right-announcement-content-wrapper2">
+									<div id="content-right-announcement-content">
+										<p><a href="#">Bus schedule id:KKL/LKT/TBS/28 will be cancel</a></p>
+									</div>
+									<div id="content-right-announcement-by">
+										<small>Jan 02, 2015 | KKKL Admin</small>
+									</div>
+								</div>
+								<div id="content-right-announcement-content-wrapper2">
+									<div id="content-right-announcement-content">
+										<p><a href="#">Bus schedule id:KKL/LKT/TBS/28 will be cancel due to unforeseen circumstances</a></p>
+									</div>
+									<div id="content-right-announcement-by">
+										<small>Jan 02, 2015 | KKKL Admin</small>
+									</div>
+								</div>
+								<div id="content-right-announcement-content-wrapper2">
+									<div id="content-right-announcement-content">
+										<p><a href="#">Bus schedule id:KKL/LKT/TBS/28 will be cancel</a></p>
+									</div>
+									<div id="content-right-announcement-by">
+										<small>Jan 02, 2015 | KKKL Admin</small>
+									</div>
+								</div>
+								<div id="content-right-announcement-content-wrapper2">
+									<div id="content-right-announcement-content">
+										<p><a href="#">Bus schedule id:KKL/LKT/TBS/28 will be cancel due to unforeseen circumstances</a></p>
+									</div>
+									<div id="content-right-announcement-by">
+										<small>Jan 02, 2015 | KKKL Admin</small>
+									</div>
+								</div>
+								<div id="content-right-announcement-content-wrapper2">
+									<div id="content-right-announcement-content">
+										<p><a href="#">Bus schedule id:KKL/LKT/TBS/28 will be cancel due to unforeseen circumstances</a></p>
+									</div>
+									<div id="content-right-announcement-by">
+										<small>Jan 02, 2015 | KKKL Admin</small>
+									</div>
+								</div>
+							</div>
+							<div id="content-right-announcement-all">
+								<div id="content-right-announcement-viewall">
+									<ul>
+										<a href="#"><li>View All</li></a>
+									</ul>
+								</div>
+							</div>
+							
+							
+						
+					</div>
+				</div>
+				
+				<div id="content-step">
+					<div id="content-step-title"><p>4 Steps to Purchase Ticket</p></div>
+					<!--<img src="flash-folder/step2.jpg" width="133px" height="420px" alt="">-->
+					<img src="flash-folder/step2.gif" width="200px" height="500px" alt="">
+				</div>
+				</div>
+			</div>
+			<div id="btm-navi">
+				<div id="btm-navi-menu">
+					<ul>
+						<li><a href="index.html" target="_blank">Home</a></li>
+						<li><a href="#" target="_blank">How to Purchase</a></li>
+						<li><a href="#" target="_blank">Book Ticket</a></li>
+						<li><a href="Our%20Partner.html" target="_blank">Our Partner</a></li>
+						<li><a href="#" target="_blank">About Us</a></li>
+						<li><a href="#" target="_blank">Contact Us</a></li>
+						<li><a href="FAQ.html" target="_blank">FAQ</a></li>
+					</ul>
+				</div>
+				<div id="btm-navi-left">
+					<ul>
+						<li><a href="#" target="_blank">Terms of Use</a> |</li>
+						<li><a href="#" target="_blank">Privacy Policy</a> |</li>
+						<li><a href="#" target="_blank">Career</a> |</li>
+						<li><a href="#" target="_blank">Advertise</a></li>
+					</ul>
+				</div>
+				<div id="btm-navi-btm">
+					<small>Copyright 2015. All Rights Reserved.</small>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+Drafted List of Bugs
+======================================================================
+
+*superadmin add company
+*add_route date cannot before today
+*add_schedule shouldnt select the same city
+*admin_edit_bus_detail access if id not exist
+*admin_edit_bus_detail show comp_id
+*admin_edit_staff_deail access if id not exist
+*admin_view_announcement.php show expiry time
+*filter_branch shouldnt be comp_id&show other comp detail&user input
+*filter_bus shouldnt be user input
+*filter_staff shouldnt be user input
+*our_partner button viewall
+*privacy policy in signup
+*gender in signup
+*nationality in signup
+*address's state in signup
+*staff_add_announcement should have alert if unsuccess
+*staff&user_view_announcement expired announce still exist
+*staff_edit_announcement the date
+*filter_transaction 404
+*view_announcement should be orderby desc
+*view_bus delete no function
+*view_route pagination incorrect, content not suitable
+*view_schedule pagination is incorrect
+*view_staff_detail pagination is incorrect

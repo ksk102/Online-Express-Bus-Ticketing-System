@@ -1,0 +1,53 @@
+#signin-content form
+{
+	font-family:Arial;
+	font-size:11pt;
+}
+
+#signin-content input, select
+{
+	border:1px solid silver;
+	margin-top:5px;
+	width:300px;
+	height:30px;
+	border-radius:10px;
+	padding-left:5px;
+}
+
+#signin-content input[type="email"], #signin-content input[type="password"]
+{
+	margin-bottom:5px;
+	width:270px;
+}
+
+#signin-content input[type="checkbox"]
+{
+	margin-bottom:20px;
+}
+
+#signin-content input[type:"submit"]
+{
+	background-color:cyan;
+}
+
+#signin-content input[type="submit"]:hover
+{
+	opacity:0.5;
+}
+
+#signin-content input:focus
+{
+	background-color:#ccffff;
+	color:#6600ff;
+}
+
+#signin-content a.problem
+{
+	color:#0073c4; 
+	text-decoration:none; 
+	font-size:9.5pt;
+}
+#signin-content a.problem:hover
+{
+	text-decoration:underline;
+}

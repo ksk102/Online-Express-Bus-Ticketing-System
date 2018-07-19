@@ -1,0 +1,197 @@
+#header
+{
+	width:1080px;
+	height:100px;
+}
+
+#header-left
+{
+	width:190px;
+	height:100px;
+	float:left;
+	margin-right:740px;
+}
+
+#header-right
+{
+	width:72px;
+	float:left;
+	font-size:16px;
+	margin-top:17px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#header-right a
+{	
+	color:black;
+	text-decoration:none;
+}
+
+#header-right a:hover	
+{
+	color:silver;
+}
+
+body
+{
+	zoom:1;
+}
+
+#header-navi-wrapper
+{
+	width:880px;
+	height:auto;
+	float:left;
+	margin-top:-55px;
+	margin-left:205px;
+}
+
+#header-navi-wrapper ul
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.header-navi
+{
+	margin: 0;
+	margin-left:5px;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	position: relative;
+	font-size: 18px;
+}
+
+.header-navi a
+{
+	text-decoration:none;
+	transition:color 0.3s ease-out;
+	color:inherit;
+}
+
+.header-navi li
+{
+	position:relative;
+	display:inline-block;
+	margin:5px;
+	letter-spacing:-1px;
+}
+
+.firstnavi:after, .firstnavi:before,.firstnavi a:after, .firstnavi a:before
+{
+	background-color:#CEDD3E;
+}
+
+.firstnavi:hover
+{
+	color:#CEDD3E
+}
+
+.secondnavi:after, .secondnavi:before,.secondnavi a:after, .secondnavi a:before
+{
+	background-color:#F27132;
+}
+
+.secondnavi:hover
+{
+	color:#F27132;
+}
+
+.thirdnavi:after, .thirdnavi:before,.thirdnavi a:after, .thirdnavi a:before
+{
+	background-color:#85C3E9;
+}
+
+.thirdnavi:hover
+{
+	color:#85C3E9;
+}
+
+.fourthnavi:after, .fourthnavi:before,.fourthnavi a:after, .fourthnavi a:before
+{
+	background-color:#FDBE2A;
+}
+
+.fourthnavi:hover
+{
+	color:#FDBE2A;
+}
+
+.fifthnavi:after, .fifthnavi:before,.fifthnavi a:after, .fifthnavi a:before
+{
+	background-color:#d200ff;
+}
+
+.fifthnavi:hover
+{
+	color:#d200ff;
+}
+
+.sixthnavi:after, .sixthnavi:before,.sixthnavi a:after, .sixthnavi a:before
+{
+	background-color:#00ff1e;
+}
+
+.sixthnavi:hover
+{
+	color:#00ff1e;
+}
+
+.seventhnavi:after, .seventhnavi:before,.seventhnavi a:after, .seventhnavi a:before
+{
+	background-color:#ff009c;
+}
+
+.seventhnavi:hover
+{
+	color:#ff009c;
+}
+
+.header-navi li:after, .header-navi li:before, .header-navi  a:before, .header-navi  a:after
+{
+	position:absolute;
+	content:'';
+	border-radius:4px;
+}
+
+.header-navi li:after,.header-navi li:before
+{
+	bottom:-4px;
+	height:4px;
+}
+
+.header-navi li:not(.selected):before
+{
+	left:0;
+	right:-2px;
+}
+
+.header-navi li.selected:after
+{
+	left:0;
+	right:39px; 
+}
+
+.header-navi li.selected:before
+{
+	right:-2px;
+	width:13px;
+}
+
+.header-navi .selected a:before
+{
+	height:22px;
+	width:4px;
+	bottom:-22px;
+	right:7px;
+}
+
+.header-navi .selected a:after
+{
+	height:4px;
+	width:40px;
+	bottom:-13px;
+	right:5px;
+	transform:rotate(30deg);
+}=
+

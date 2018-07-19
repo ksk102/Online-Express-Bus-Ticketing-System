@@ -1,0 +1,106 @@
+#sidenavi
+{
+	font-family:Arial;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	width:250px;
+	height:inherit;
+	float:left;
+}
+
+
+#img-wrapper
+{
+	padding:10px;
+	margin:0px auto;
+	text-align:center;
+	width:180px;
+	height:130px;
+	transition:opacity 0.3s ease-out;
+}
+
+#img-wrapper img
+{
+	border-radius:45px;
+	height:100px;
+	width:100px;
+}
+
+#img-wrapper p
+{
+	color:white;
+}
+
+#img-wrapper:hover
+{
+	opacity:0.5;
+}
+
+#sidenavi-content
+{
+	height:230px;
+	width:230px;
+	margin:0px auto;
+	margin-left:14px;
+	margin-top:50px;
+}
+
+#sidenavi-content-choices
+{
+	height:100px;
+	width:100px;
+	text-align:center;
+	margin:5px;
+	float:left;
+	font-size:11pt;
+	color:black;
+	transition:opacity 0.3s ease-out;
+}
+
+#sidenavi-content-choices:hover
+{
+	opacity:0.5;
+}
+
+#sidenavi-content-choices img
+{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+}
+
+#sidenavi a:link, a:visited, a:active
+{
+	text-decoration:none;
+}
+
+.first
+{
+	background-color:#99F;
+}
+
+.second
+{
+	background-color:#F96
+}
+
+.third
+{
+	background-color:#F6F
+}
+
+.fourth
+{
+	background-color:#6FC
+}
+
+.fifth
+{
+	background-color:#CFC
+}
+
+.sixth
+{
+	background-color:#F69
+}

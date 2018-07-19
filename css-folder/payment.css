@@ -1,0 +1,82 @@
+#main-content
+{
+	font-family:Arial;
+	width:830px;
+	height:auto;
+	margin:0 auto;
+	margin-top:40px;
+	background-color:white;
+	padding-bottom:15px;
+}
+
+#main-content-title
+{
+	font-size:14pt;
+	font-family:Arial;
+}
+
+#main-content-result
+{
+	border:1px solid #DDDDDD;
+	width:600px;
+	height:auto;
+	margin:0 auto;
+	font-size:11pt;
+	font-family:Arial;
+}
+
+#main-content-result table
+{
+	margin:10px;
+	border-collapse:collapse;
+	height:300px;
+	width:550px;
+}
+
+#main-content-result table input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:180px;
+	padding-left:5px;
+	height:25px;
+}
+
+#main-content-result table select
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:187px;
+	padding-left:5px;
+	height:25px;
+}
+
+#main-content-result p
+{
+	width:270px;
+	font-size:10pt;
+	padding-left:5px;
+}
+
+#confirm-btn 
+{
+	width:220px;
+	margin-left:430px;
+	margin-bottom:15px;
+}
+
+#confirm-btn input[type="submit"],#confirm-btn input[type="reset"] 
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:140px;
+	padding-left:5px;
+	height:25px;
+}
+
+#confirm-btn input[type="submit"]:hover,#confirm-btn input[type="reset"]:hover
+{
+	background-color:#eeeeee;
+}

@@ -1,0 +1,76 @@
+#signup-wrapper
+{
+	background-color:#dddddd;
+	padding:10px;
+	border-radius:10px;
+	margin:0px auto;
+	width:800px;
+}	
+
+#signup-wrapper h3
+{
+  background-color: #282830;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top:-10px;
+  margin-left:-15px;
+  width:800px;
+}
+
+#signup-content
+{
+	width:650px;
+	background-color:#CCCCCC;
+	height:inherit;
+	padding:0px;
+	margin:0px auto;
+}
+
+#signup-content form
+{
+	font-family:Arial;
+	font-size:11pt;
+	margin-left:5px;
+}
+
+#signup-content input, #signup-content select
+{
+	border:1px solid silver;
+	border-radius:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+	width:230px;
+	height:30px;
+	padding-left:5px;
+}
+
+#signup-content input:focus
+{
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+#signup-content input[type="submit"]
+{
+	margin-left:400px;
+}
+
+#signup-content input[type="submit"]:hover
+{
+	opacity:0.5;
+}
+
+#signup-wrapper a
+{
+	color:#009fd2;
+}
+		
+#signup-wrapper a:hover
+{
+	color:blue;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.4</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>1st Edition</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>carousel_basic</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>450</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>E:/Program Files/WOW Slider/templates/backgnd/graffito/</ImageTemplate>
+            <ImageTemplateName>Graffito</ImageTemplateName>
+            <ImageWidth>450</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/user/Documents\WOW Slider/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/user/Documents\WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>47</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>Averia Sans Libre</TemplateFont>
+            <TemplateName>graffito</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Advantage.jpg</url>
+                <title>Advantage</title>
+                <filesize>79273</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Book your Ticket now!.jpg</url>
+                <title>Book your Ticket now!</title>
+                <filesize>8622</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Bus Booking System.jpg</url>
+                <title>Bus Booking System</title>
+                <filesize>88933</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Happy CNY.jpg</url>
+                <title>Happy CNY</title>
+                <filesize>88750</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Happy New Year.jpg</url>
+                <title>Happy New Year</title>
+                <filesize>86975</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/KKKL.jpg</url>
+                <title>KKKL</title>
+                <filesize>177497</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/user/OneDrive/MMU/Final Year Project/Part 1/Prototype/DEMO/450x450/Editted/Transnational.jpg</url>
+                <title>Transnational</title>
+                <filesize>138911</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

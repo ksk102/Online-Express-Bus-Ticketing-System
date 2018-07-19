@@ -1,0 +1,111 @@
+#content-wrapper
+{
+	font-family:Arial;
+	width:1080px;
+	height:750px;
+	background-color:white;
+}
+
+#edituserprofile-wrapper
+{
+	width: 800px;
+	height:inherit;
+	margin-left:20px;
+	background-color:#FFF;
+	float:left;
+}
+
+#edituserprofile-wrapper-title
+{
+	text-align:left;
+	font-size:14pt;
+	font-family:Arial;
+	margin-bottom:30px;
+}
+
+#edituserprofilefrm
+{
+	border:1px solid #dddddd;
+	width:750px;
+	margin-left:10px;
+	box-shadow:0px 0.5px 10px #CCCCCC;
+}
+
+#edituserprofilefrm table
+{
+	margin:10px;
+	border-collapse:collapse;
+	height:300px;
+	width:800px;
+}
+
+#edituserprofilefrm table input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:180px;
+	padding-left:5px;
+	height:25px;
+}
+
+#edituserprofilefrm table select
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:187px;
+	padding-left:5px;
+	height:25px;
+}
+
+#edituserprofilefrm p
+{
+	width:270px;
+	font-size:10pt;
+	padding-left:5px;
+}
+
+#edituserprofile-btn 
+{
+	width:220px;
+	margin-left:540px;
+	margin-bottom:15px;
+}
+
+#edituserprofile-btn input[type="submit"],#edituserprofile-btn input[type="reset"] 
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:100px;
+	padding-left:5px;
+	height:25px;
+}
+
+#edituserprofile-btn input[type="submit"]:hover,#edituserprofile-btn input[type="reset"]:hover
+{
+	background-color:#eeeeee;
+}
+
+div.fileinputs 
+{
+	position: relative;
+}
+
+div.fakefile 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file 
+{
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}

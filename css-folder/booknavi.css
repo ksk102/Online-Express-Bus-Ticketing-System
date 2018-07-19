@@ -1,0 +1,197 @@
+.breadcrumb
+{
+	padding:8px 15px;
+	margin:0 0 18px;
+	list-style:none;
+	background-color:#f5f5f5;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px
+}
+	
+.breadcrumb>li
+{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	text-shadow:0 1px 0 #fff
+}
+
+.breadcrumb>li>.divider
+{
+	padding:0 5px;color:#ccc
+}
+
+.breadcrumb>.active
+{
+	color:#999
+}
+
+.breadcrumb-body
+{
+	list-style:outside none none;
+	margin:30px auto;
+	width:550px;
+	*zoom:1
+}
+
+.breadcrumb-body:before,.breadcrumb-body:after
+{
+	display:table;content:"";line-height:0
+}
+
+.breadcrumb-body:after
+{
+	clear:both
+}
+
+.breadcrumb-body a,.breadcrumb-body a:hover,.breadcrumb-body a:active
+{
+	text-decoration:none
+}
+
+.breadcrumb-body li
+{
+	width:105px;
+	display:inline-block
+}
+
+.breadcrumb-body li .breadcrumb-stage-name
+{
+	margin:0 auto;
+	padding:2px 5px;
+	text-align:center;
+	font-size:13px
+}
+	
+.breadcrumb-body li .breadcrumb-stage-container
+{
+	position:relative
+}
+
+.breadcrumb-body li .breadcrumb-stage-container .breadcrumb-stage
+{
+	height:24px;
+	width:24px;
+	border-radius:16px;
+	text-align:center;
+	line-height:24px;
+	font-size:14px;
+	font-weight:bolder;
+	margin:2px auto
+}
+
+.breadcrumb-body li .breadcrumb-stage-container .breadcrumb-dots
+{
+	color:#ccc;
+	font-size:23px;
+	font-weight:bolder;
+	position:absolute;
+	top:0;left:70px;
+	letter-spacing:3px;
+	cursor:default;
+	line-height:12px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none
+}
+
+.breadcrumb-body li.rebook-flow
+{
+	width:275.25px
+}
+
+.breadcrumb-body li.rebook-flow.last
+{
+	width:290.25px
+}
+
+.breadcrumb-body li.checkin-flow
+{
+	width:275.25px
+}
+
+.breadcrumb-body li.checkin-flow.last
+{
+	width:290.25px
+}
+
+.breadcrumb-body .current .breadcrumb-stage-name
+{
+	color:#000
+}
+
+.breadcrumb-body .current .breadcrumb-stage
+{
+	background-color:#33cb98;
+	color:#fff
+}
+
+.breadcrumb-body .current.disable
+{
+	pointer-events:none;
+	cursor:default
+}
+
+.breadcrumb-body .current.disable a
+{
+	cursor:default!important
+}
+
+.breadcrumb-body .past .breadcrumb-stage-name
+{
+	color:#000
+}
+
+.breadcrumb-body .past .breadcrumb-stage
+{
+	background-color:#33cb98;
+	color:#fff
+}
+
+.breadcrumb-body .past.disable
+{
+	pointer-events:none;
+	cursor:default
+}
+
+.breadcrumb-body .past.disable a
+{
+	cursor:default!important
+}
+
+.breadcrumb-body .future .breadcrumb-stage-name
+{
+	color:#666
+}
+
+.breadcrumb-body .future .breadcrumb-stage
+{
+	background-color:#c7c7c7;
+	color:#000
+}
+
+.breadcrumb-body .future.disable
+{
+	pointer-events:none;
+	cursor:default
+}
+
+.breadcrumb-body .future.disable a
+{
+	cursor:default!important
+}
+
+.breadcrumb-body .disable
+{
+	pointer-events:none;
+	cursor:default
+}
+
+.breadcrumb-body .disable .breadcrumb-stage
+{
+	background-color:#c7c7c7;
+	color:#fff
+}

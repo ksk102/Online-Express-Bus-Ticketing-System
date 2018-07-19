@@ -1,0 +1,1 @@
+Select route.routeid, route.rou_id, route.rou_date, route.ROU_PLATFORM, route.BUS_VRN, route.SCH_ID, count(route.ROUTEID) as 'rseat' from route inner join seat on route.BUS_VRN=seat.BUS_VRN inner join schedule on route.SCH_ID=schedule.SCH_ID where route.ROU_DATE = seat.SEAT_DATE and seat.SEAT_STATUS=0 and schedule.SCH_TIME=seat.SEAT_TIME

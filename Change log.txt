@@ -1,0 +1,862 @@
+##29/06/2015 by KS Koh
+*index.html: -Old slider was removed, and a new slider was inserted.
+	    -Logo was changed.
+            -New Design for navigation bar.
+			
+##30/06/2015 by Bryan
+*signin.php: Added by modify signin.html, php code was added
+*user_profile.php: Added by modify user_profile.html, php code was added
+*database: Created
+
+##30/06/2015 by KS Koh
+*index.html: -new design for main content(announcement, search ticket)
+
+--------------------------------------------------------------------------------------------------
+(Version 8.2)
+##01/07/2015 by KS Koh
+*index.php: -design of this page considered finalized
+	    -login's php code have been added (Copy from signin.php)
+*db_con.php: -ob_start(); added
+*All css folder: -reuploaded
+*images folder: -reuploaded
+--------------------------------------------------------------------------------------------------
+(Version 8.3)
+##03/07/2015 by KS Koh, modified by version 8.2
+*signup-page.php ----> signup.php
+*index.php: -url link changed
+*signup.php: -url link changed
+	     -login code added
+	     -popup code for login added
+             -navigation bar replaced
+	     -upload picture column removed
+             -title aligned right
+*signin.php: -url link changed
+             -navigation bar replaced
+	     -div name modified
+*signin.css: -modified
+*popup folder:-modified
+*user_profile.php: -navigation bar replaced
+		   -url links changed
+		   -password column removed
+		   -title aligned right
+*userprofile.css   -shorter height for table
+*leftnavi.css	   -simple css3 added into side navigation
+*edit_user_profile.php :-navigation bar replaced
+		   	-url links changed
+			-title aligned right
+			-some column removed
+		   	-email and dob are able to be changed
+	     	   	-password was removed from php code
+			-new design to upload profile picture
+			-uploaded profile picture will be saved in profile_picture/uploades/
+*edituserprofile.css: -type="button"---->type="submit"
+		      -shorter table height
+*profile_picture folder:-new folder added
+--------------------------------------------------------------------------------------------------
+(Version 8.4)
+##06/07/2015 by Bryan
+*user_profile.php -age now directly retrieve from database
+		  -removed age converter
+		  -added logout session destroyer
+*edit_user_profile.php -updated update table sql
+		       -customer age now calculated properly
+		       -added logout session destroyer
+*signup.php -added * Required field
+	    -modified update sql
+	    -password now required min 4 characters
+            -name now check for numbers and special characters
+	    -added password strenght checker
+--------------------------------------------------------------------------------------------------
+(Version 8.5)
+##09/07/2015 by Bryan
+*Database -added more attribute for staff table
+*signup.php -improved validation
+	    -ic now validate with this format (XXXXXX-XX-XXXX)
+	    -phone number now only accept number
+*staff_profile.php -navigation bar replaced
+		   -updated url link
+		   -password column removed
+		   -now retrieve data from database based on session id
+		   -added sql query
+*edit_staff_profile.php -navigation bar replaced
+			-added input validation
+			-updated url link
+			-replaced old design of upload profile picture
+			-added sql query
+*edit_user_profile.php -added input validation
+--------------------------------------------------------------------------------------------------
+(Version 8.6)!!Important update for header
+##13/07/2015 by KS Koh, based on v8.5
+
+*database                                 : -admin,staff,customer tables updated
+*db_con.php				  : -updated for session_start()
+*include(folder)                          : -new folder
+*header.php                               : -new file, to be included as header for all files
+*user_profile.php,
+edit_staff_profile.php,
+edit_user_profile.php,
+staff_profile.php                         : -'$_SESSION["sess_xxxid"];' changed as '$_SESSION["sess_uid"];', $sql_user and $sql_staff updated
+*index.php                                : -'$_SESSION["sess_xxxid"];' changed as '$_SESSION["sess_uid"];', $_SESSION['login_user']= $email; added
+*all php files 				  : -whole <div id="header"> replaced with header.php
+
+--------------------------------------------------------------------------------------------------
+(Version 8.7.1)
+##14/07/2015 by KS Koh, Boon Hau, based on v8.5
+
+*slider.php,
+signinpopup.php
+searchticket.php	: -new file in include folder
+*searchticket.css	: -new file in css-folder
+*index.php              : -signin using include()
+                          -Search ticket using include()
+			  -slider using include()
+			  -include btmnavi.php
+			  -include popup_jq.php
+*btmnavi.php		: -new file inside include folder, used as the bottom navigation for all page by include()
+*header.php		: -link with signinpopup.php
+*our_partner.php	: -modified using Our Partner.html and using include()
+popup_jq.php		: -new file in include folder, use for every files contain pop up
+--------------------------------------------------------------------------------------------------
+(Version 8.7.2)
+##14/07/2015 by KS Koh, Boon Hau, based on v8.5
+
+*leftnavi.php		: -new file in include folder
+*edit_staff_profile.php,
+edit_user_profile.php,
+staff_profile.php,
+user_profile.php,
+*view_schedule.php	: -using include() for their side navigation
+*All php files		: -added icon for tab title
+--------------------------------------------------------------------------------------------------
+(Version 8.8)
+##15/07/2015 by Bryan
+
+*obts database		: -updated table
+*leftnavi.php, 		: -updated url
+ header.php,
+ staff_profile.php,
+ user_profile.php,
+ staff_transaction.php,
+ staff_view_schedule.php
+*staff_view_schedule.php: -now retrieve from database
+			  -now using include() for side & bottom navigation
+*staff_transaction.php	: -now using include() for side & bottom navigation
+*staff_profile.php, 	: -replaced address seperator
+ edit_staff_profile.php,
+ user_profile.php,
+ edit_user_profile.php,
+ sigup.php
+--------------------------------------------------------------------------------------------------
+(Version 8.8.1)
+##15/07/2015 by KS Koh, based on v8.7.2
+
+*viewschedule.css	: -adjusted the height
+			  -separate the filter's code to another new file
+*filter.css		: -new file, separated from viewschedule.css, new codes added
+*view_schedule.php	: -popup for filter
+			  -using include() for departarrive
+*extra(folder)		: -testing features, but not yet included in system are here
+			  -another type of filter
+			  -remember_me
+*departarrive.php	: -new file storing the pick up and drop off city
+*leftnavi.php		: -bug fix for admin part
+*popup/css/popup1	: -new code added
+*popup/js/index.js	: -new code added
+--------------------------------------------------------------------------------------------------
+(Version 8.8.2)
+##15/07/2015 by KS Koh, based on v8.8.1
+
+*staff_view_schedule.php: -popup for filter
+*staff_transaction.php	: -popup for filter
+*transactionhistory.css	: -adjusted the height
+			  -using filter.css to replace the original code
+--------------------------------------------------------------------------------------------------
+(Version 8.8.3)
+#26/07/2015 by Bryan
+
+*staff_transaction.php : data now retrieve from database
+*add_announcement.html > add_announcement.php
+*staff_view_announcement, : new file 
+ staff_add_announcement
+*index.php	       : announcement now retrieve from database
+--------------------------------------------------------------------------------------------------
+(Version 8.8.4)
+#05/08/2015 by KS Koh, based on v8.8.2
+
+*header.php			: -update the admin profile url link
+*leftnavi.php			: -update the leftnavi for admin_profile.php
+*admin_profile.php		: -new file
+*edit_admin_profile.php		: -new file
+				  -live validation enabled
+				  -Input Mask for IC
+*editadminprofile.css		: -css for edit_admin_profile.php
+--------------------------------------------------------------------------------------------------
+(Version 8.8.6)
+#10/08/2015 by Bryan, based on v8.8.5
+
+*staff_add_announcement.php		: -add announcement will now insert staff id into database
+*staff_view_announcement_detail.php	: -new file
+				  	  -retrieve announcement detail based on the announcement id that user click
+
+--------------------------------------------------------------------------------------------------
+(Version 8.8.8)
+#10/08/2015 by Bryan, based on v8.8.6
+
+*staff_view_announcement_detail.php : -now only the poster can edit their announcement
+*staff_edit_announcement.php	    : -new file
+				      -validation included
+*user_transaction.php		    : -left navi now use include()
+				      -btm navi now use include()
+				      -data now retrieve from database
+
+--------------------------------------------------------------------------------------------------
+(Version 8.8.9)
+#11/8/2015 by KS Koh, based on v8.8.8
+
+*editadminprofile.css				: -slightly modified
+*leftnavi.php					: -profile picture achieve from database
+*profile_picture/image_upload_dome_submit.php	: -profile picture name assign using user id + random number from 900 - 999
+*edit_admin_profile				: -validation improved
+						  -Nationality added, ic number/passport number depend on the nationality
+						  -reset button added
+*edit_staff_profile				: -when confirm button clicked, image url will store into database
+*DATABASE					: -Update admin and staff table
+*view_schedule					: -bring along admin id
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9)
+#12/08/2015 by Bryan & Boon Hau, based on v8.8.8
+
+*signup.php			: -updated captcha with validation
+*staff_edit_announcement.php	: -now can remove announcement (validation included)
+*staff_view_schedule_detail.php	: -new file
+				  -retrieve schedule detail based on the schedule id that user click
+*staff_transaction.php		: -now only retrieve and display the transaction the user/staff made
+ user_transaction.php
+*about_us.css			: -the table design
+*contact_us.html		: -Google maps and detail
+*About_us.html			: -Company detail
+*delimaexpress.css		: -updated style
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.1)
+#19/08/2015 by KS Koh based on v8.8.9
+
+*leftnavi.php			: -default profile picture for admin, if no image was uploaded
+*images/icon/validation		: -new folder with file
+*editadminprofile.css		: -shorther the height
+*user profile.css		: -modify the button width and margin-left
+*admin_profile			: -added the change password button
+*edit_admin_Profile		: -validation for most for the input column
+				  -but when there was error for non-malaysian, the passport number cannot be prevented to insert into database, 				   problem unfound
+				  -Address State, now can be selected from dropdown list
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.2)
+#19/08/2015 by KS Koh, Boon Hau based on v8.9.1
+
+*DATABASE			: -update on schedule table
+*search_ticket.css		: -new file for css styling of search search_ticket.php
+*search_ticket.php		: -new file for search and book the ticket
+				  -step for booking ticket added
+*header.php			: -link and url updated
+*btmnavi.php			: -url link updated
+*contact_us.php
+*about_us.php			: -included php code
+*search_result.php		: -user able to search for ticket (only JLRK to JMUR currently)
+*js-folder/index.js		: -correction for typo
+*include/searchticket.php	: -modify for the input:name
+*kkkl_express_detail.php
+*plusliner_express_detail.php
+*trasnasional_express_detail.php: -new files
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.3)
+#23/08/2015 by Bryan based on v8.9.1
+
+*signup.php			: -now user will get auto-generated cust_id when signing up
+*leftnavi.php,			: -updated code for admin
+ header.php				
+*add_staff.php			: -new file, replaced add_staff.html
+*add_schedule.php		: -new file, replaced add_schedule.html(not finish yet)
+*admin_edit_staff_detail.php	: -new file
+*DATABASE			: -changes on branch, staff table
+
+--------------------------------------------------------------------------------------------------
+(version 8.9.4.0)
+#21/08/2015 by KS Koh based on v8.9.2
+
+*DATABASE			: -combined
+*search_ticket.php		: -design completed
+				  -some columns were working now
+*search_ticket.css		: -updated design for search_ticket.php
+*CreativeButtons/css/indextab	: -adjusted the height
+
+--------------------------------------------------------------------------------------------------
+(version 8.9.4.1)
+#23/08/2015 by KS Koh combined v8.9.2, 8.9.3 and v8.9.4.0
+
+THESE FILES WERE MOVED AND COMBINED INTO v8.9.3
+*search_ticket.css
+*search_ticket.php
+*header.php
+*btmnavi.php
+*contact_us.php
+*about_us.php
+*search_result.php
+*js-folder/index.js		
+*include/searchticket.php	
+*kkkl_express_detail.php
+*plusliner_express_detail.php
+*trasnasional_express_detail.php
+*CreativeButtons/css/indextab.php
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.5)
+#25/08/2015 by Bryan based on v8.9.4.1
+
+*admin_view_staff_detail.php		: -new file
+*add_announcement.php			: -input for date and time now based on system time
+					  -added sql to insert into database
+					  -added validation
+*view_staff_detail.php			: -edit and delete image button now working
+*view_schedule.php			: -schedule now retrieve from database
+*admin_view_announcement.php,		: -new file
+ admin_view_announcement_detail.php,
+ admin_edit_announcement.php
+*staff_add_announcement.php		: -added validation
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.6)
+#25/08/2015 by Bryan based on v8.9.5
+
+*view_company_detail.php,		: -new file
+ edit_company_detail.php,
+ add_company_detail.php
+*add_announcement.php			: -added php code to generate announcement id
+*delimaexpress.css >>> companydetail.css
+*our_partner.php			: -updated code
+*delima_express_detail.html,		: -replaced to php
+ kkkl_express_detail.html,
+ plusliner_express_detail.html,
+ trasnasional_express_detail.html
+*DATABASE 				: -changes on announcement
+*admin_edit_announcement.php		: -include more validation
+*sales_report.php			: -new file
+*left_navi.php,				: -updated code
+ header.php
+
+--------------------------------------------------------------------------------------------------
+(Version 8.9.7)
+#26/08/2015 by KS Koh based on v8.9.5
+
+*chooseseat.php			: -new file
+				  -seat selection
+				  -seats chosen were showed
+*chooseseat.css			:  -for the design of chooseseat.php
+*images/seatselection/		: -new folder and files
+*search_result.php		: -added booknavi
+*search_ticket.php		: -replace booknavi with include
+*search_ticket.css		: -minor adjustment
+*booknavi.php			: -new file for booknavi in book ticket flow
+*booknavi.css			: -styling for booknavi.php
+*extra/Chooseseat		: -new files and folder
+				: -include another type of chooseseat which is retrieve from senior project
+				: -popup method of chooseseat but fail, because one and only one can popup
+
+--------------------------------------------------------------------------------------------------
+(Version 8.10.0)
+#26/08/2015 by KS Koh based on v8.9.7
+
+*DATABASE			: -111 records inserted into schedule table
+				  -new table 'cityname' added, records added
+*searchticket.css		: -adjust the margin between two drop-down list
+*include/departarive.php	: -slightly modify, used for states drop-down list
+				  -php code for retrieve dropdown list data from database
+*include/departarive2.php	: -new file, used for round-trip's states drop-down list
+*js-folder			: -php version of index.js, but useless now
+*include/searchticket.php	: -dropdown list now using 'include', used in index.php
+*search_ticket.php		: -dropdown list now using 'include'
+				  -ajax code added for retrive variable from javascript
+				  -depart and arrive state are now retrieve from the database
+				  -depart and arrive city are now retrieve from the database
+				  -no more connected to index.js nor city.php from js-folder
+*include/arrivestate.php	: -php code for retrieve arrivestate's database
+*include/arrivecity.php		: -php code for retrieve arrivecity's database
+*include/departcity.php		: -php code for retrieve departcity's database
+
+--------------------------------------------------------------------------------------------------
+(version 8.11.0)
+#29/08/2015 by KS Koh based on v8.10.0
+
+*DATABASE			: -route table's structure was changed
+				  -data added into route table
+				  -edited seat and bus table, data added
+*extra/phpmailertest/		: -email plugin by boonhau, but didnt combine to system yet
+*js-folder-->extra/js-folder	: -moved here, because it is not used
+*include/departcity.php		: -bugs fixed
+*include/arrivecity.php		: -bugs fixed
+*include/departarrive.php	: -bugs fixed
+*include/coachcompany.php	: -php code for retrieve coach-company's database
+*search_ticket.php		: -bugs fixed for alert prompt while user didnt select a arrive/depart city/state
+				  -coach company is now retrieve from database
+*include/departarrive.php	: -code added to support coach company to retrieve data from database
+*search_result.php		: -pickup and dropoff point's name now is retrieve from database
+				  -results show were now retrieve from both schedule and route table, beside that results were checked the pickup, dropoff and date
+				  -adjusted table td width
+				  -depart time was checked as well
+				  -coach company was checked as well
+				  -number of seat checked as well
+*search_ticket.php		: -depart city, arrive city and depart date will be checked before submit, alert box will prompt out if any of these were empty
+				  -bugs fixed, departcity value will bring to arrivecity now
+				  -oneway-trip and round-trip are now 2 different form
+
+--------------------------------------------------------------------------------------------------
+(Version 8.12.1)
+#30/08/2015 by KS Koh based on v8.12.0
+
+*search_result.php		: -company name retrieve from database
+*include/schdcity.php		: -retrieve data from database and write it in add_schedule.php
+*add_schedule.php		: -arrive&depart city and retrieve from database based on what user choose on the state
+
+--------------------------------------------------------------------------------------------------
+(version 8.12.2)
+#30/08/2015 by Bryan based on v8.12.1
+
+*view_schedule.php		: -update sql code
+				  -removed SCH_DAY
+*view_company_detail.php,	: -now can upload image
+ add_company_detail.php,
+ edit_company_detail.php
+*add_staff.php,			: -updated generate ID php
+ add_announcement.php,
+ signup.php,
+ add_schedule.php
+*edit_admin_profile.php,	: -updated upload profile picture sql
+ edit_staff_profile.php,
+ edit_user_profile.php
+*our_partner.php		: -updated sql
+*company_detail.php		: -new file
+*view_staff_detail.php		: -admin now only can view their own company staff
+*add_schedule.php		: -SCH_ID now properly retrieve from database
+				  -included validation
+*view_bus.php,			: -new file
+ add_bus.php,			  -included validation
+ edit_bus.php,
+ view_bus.css,
+ add_bus.css
+*staff_view_schedule.php	: -now can only view their own company bus schedule
+				  -removed day variable
+*staff_view_schedule_detail.php : -removed day and resttime variable
+*leftnavi.php,			: -updated link for STAFF
+ header.php
+*staff_add_announcement.php	: -updated insert sql
+*staff_edit_announcement.php	: -included live validation for announcement title
+				  -included validation for content
+*edit_staff_profile.php		: -replaced old validation to live validation
+
+-------------------------------------------------------------------------------------------------
+(Version 8.12.3)
+#31/08/2015 by KS Koh & Boon Hau based on v8.12.2
+
+*extra/remainingseat		: -sql query will use on future
+*datepicker/			: -new folder and files for the datepicker
+*index.php			: -datepicker
+*include/searchticket.php	: -datepicker code added
+
+-------------------------------------------------------------------------------------------------
+(Version 8.12.4)
+#31/08/2015 by Bryan based on v8.12.3
+
+*FAQ.html 			: > faq.php
+*faq.php			: -header, slider, searchticket and btm navi now use include
+*View_Branch_Detail.html 	: > view_branch.php
+*DATABASE			: -added extra column for branch table
+*edit_branch_detail.php,	: -new file
+ view_branch_detail.php,
+ add_branch.php,
+ view_branch.php
+*add_announcement.php,		: -updated generate id, now will auto generate an id if there's no data in db
+ staff_add_announcement.php
+ signup.php,
+ add_staff.php,
+ add_schedule.php
+*view_bus.php,			: -updated delete sql
+ view_staff_detail.php		  -reload after deletion
+
+ -------------------------------------------------------------------------------------------------
+(Version 8.12.5)
+#31/08/2015 by KS Koh based on v8.12.3
+
+*DATABASE			: -Table Seat, ROU_ID column added, removed unused table
+*search_result.php		: -company logo retrieve from database
+				  -brought route id to select seat page, when users selected the route
+				  -bug fixed, result without any remaining seat will not be showed
+				  -popup for login added
+				  -bug fixed, removed unwanted connection
+*chooseseat.css			: -remove the max-width of #sseat
+				  -adjusted the width
+*chooseseat.php			: -booked seats were showe base on database
+				  -seat reserved for user, when user clicked 'continue'
+				  -replace the internet source of jquery to local jquery
+				  -data passed to ticket-summary.php
+*include/booknavi.php		: -bug fixed, reload while user click no.3, but not redirect
+				  -adjusted for ticket-summary.php
+				  -adjusted for payment.php
+*search_ticket.php		: -changed datepicker
+				  -popup for login added
+*ticketsummary.css		: -adjusted the design
+*ticket-summary.php		: -changed to php
+				  -popup for login added
+				  -all column were retrieve from database, or retrieve from previous page, or retrieve through math_function
+				  -if user didn't login, he/she won't procced into this page, but signin.php, however the seat have reserved
+				  -total amount passed to paymnet.php
+				  -check if user accept the term & conditions
+				  -correction on the typo
+*search_ticket.php		: -popup for login added
+*js-folder			: -new folder and file
+*payment.css			: -new file for the styling of payment.php
+*payment.php			: -new file for the payment, for credit card
+				  -validation done
+
+-------------------------------------------------------------------------------------------------
+(Version 8.12.6)
+#02/09/2015 by Bryan based on v8.12.5
+
+*DATABASE			: -added new column in customer table
+				  -added new column in schedule table
+				  -added new column in route table
+*add_schedule.php		: -new input for child ticket
+				  -add in SCH_STATUS for sql code
+*add_schedule.css		: -table design improvement
+*viewschedule.css,		: -ul & li minor improvement
+ viewannouncement.css,
+ viewbus.css,
+ viewbranch.css,
+ viewstaff.css
+*admin_view_announcement.php	: -sql update
+*view_schedule.php		: -delete now set sch_status to 1 instead of delete from database
+				  -now only retrieve active schedule from database
+				  -now include pagination
+*view_bus.php,			: -now include pagination
+ view_branch.php,
+ view_staff_detail.php,
+ staff_view_schedule.php,
+ staff_view_announcement.php
+*signupsendmail.php,		: -new file
+ cfmsignup.php,
+ signup_complete.php
+*signin.php			: -renamed to login.php
+				  -included login validation
+*images/icon/signupvalidation	: -new folder
+*include/leftnavi.php,		: -updated code for staff
+ include/header.php
+*view_company_detail.php	: -updated sql
+				  -edit can only be seen if the login user is admin
+*view_branch.php,		: -updated sql
+ view_bus.php			  -edit and delete can only be seen if the login user is admin
+*edit_user_profile.php		: -replaced old validation to live validation
+*about_us.php,			: -included login popup code
+ contact_us.php
+*view_route.php,		: -new file
+ view_route_details.php,
+ add_route.php,
+ edit_route.php,
+ admin_view_schedule_detail.php,
+ add_route.css,
+ view_announcement_detail.php,
+ user_view_announcement.php,
+ user_view_announcement_detail.php
+ view_announcement.php,
+ user_view_announcement.php,
+ user_view_announcement_detail.php,
+ viewannouncement_nlogin.css,
+ forgotpw.php,
+ reset.php,
+ change_password.php,
+ changepw.css
+*edit_schedule.php		: -sql update
+				  -include validation
+				  -child price auto calculate and insert into database (price*0.75)
+*index.php			: -fully functioned announcement tab
+*admin_profile.php,		: -include change password input
+ staff_profile.php,
+ user_profile.php
+
+-------------------------------------------------------------------------------------------------
+(Version 8.12.6.1)
+#02/09/2015 by KS Koh based on v8.12.5
+
+*search_result.php		: -bug fixed, only schedule after the time now are showed, if the date is today
+*ticket-summary.php		: -ticket details stored into transaction.
+				  -reservation and transaction cancelled, when user didnt process to next step
+				  -change the link from signin.php to login.php
+*payment.php			: -transaction id brought to this page
+*include/userclose.php		: -reservation and transaction cancelled, when user didnt process to next step
+*chooseseat.php
+*admin_view_announcement2.php
+*css/ticketsummary.css
+*css/payment.css
+*include/booknavi.php		: -unknown changes (actually I forgotten, but the last modified date is latest than the last upload date)
+
+-------------------------------------------------------------------------------------------------
+(Version 9.0.0)
+#27/09/2015 by Bryan based on v8.12.6.1
+
+*view_schedule.php,		: -filter now work
+ view_branch.php,
+ admin_view_announcement.php,
+ staff_view_announcement.php,
+ view route.php,
+ view_staff_detail.php
+*filter_schedule.php,		: -new file
+ filter_branch.php,
+ filter_announcement.php,
+ filter_route.php,
+ filter_bus.php,
+ filter_staff.php,
+ add_admin.php
+*header.php			: -logout button
+				  -sql for superadmin
+*index.php			: -changes for superadmin
+
+-------------------------------------------------------------------------------------------------
+(Version 9.0.1)
+#28/09/2015 by Bryan based on v9.0.1
+
+*add_admin.php			: -new file
+*header.php			: -logout button
+				  -sql for superadmin
+*index.php			: -changes for superadmin
+
+-------------------------------------------------------------------------------------------------
+(Version 9.1.0)
+#27/09/2015 by KS Koh based on v8.12.6.1
+
+Main
+*search_ticket.php		: -alert when user keyin the date before today
+				  -removed the unused js-folder link
+				  -remove the cookies that prevent the user to go to payment.php and ticket_summary.php
+				  -remove the cookies that allow the user to go to purchase_summary.php
+*search_result.php		: -company logo(link) now linked to company profile
+				  -whole results will directly shown in single page without pagination
+				  -route detail linked to route_detail.php
+				  -prevent user to access into this page without departcity, arrivecity, departdate, seatno or searchbutton; checked for oneway only
+*route_detail.php		: -new file
+				  -to show the route detail
+				  -user will not able to go into this page, if valid rou_id is not brought
+*chooseseat.php			: -check if user logged-in, if not, redirect to login.php with route id bring together
+				  -user will not able to access into this page, if valid rou_id is not brought
+*login.php			: -all 3 type of users signinable
+				  -live validation
+				  -rou_id brought if redirect in half-way of book ticket
+*company_detail.php		: -user will not able to go into this page, if valid comp_id is not brought
+*login.php			: -user will not able to access into this page, if they already logged-in
+				  -user will directly go to chooseat.php if they logged-in and rou_id is brought
+*ticket-summary.php		: -user will not able to access into this page, if seat is not chosen
+				  -remaining seat minus number of seat chosen
+				  -no more warning when user did a action that cause the reservation be cancelled
+				  -reservation will be cancelled in 15minutes if user did nothing
+				  -column for staff or admin to entry for the walk-in customers
+				  -prevented user to goback after the transaction have confirmed
+				  -live validation for input for admin and staff for walkin customer
+				  -transaction price added into db, and insert into db
+*payment.php			: -reservation and transaction cancelled, when user didnt process to next step 
+				  -cookie recount from 15minutes
+				  -unable to continue after refresh
+				  -transaction are now able to confirm
+				  -redirected to purchase summary, with transid
+				  -prevented user to goback after the transaction have confirmed
+				  -alert code when user try to leave this page was removed
+				  -set to Malaysia date
+*purchase_summary.php		: -cookies added to prevent user to goback payment.php after the transaction have confirmed
+				  -passed data to pdf
+*walkinpayment.php		: -behind scene code to insert the walkin customer data into walkin table
+				  -add code to auto generate WC_ID and insert into walkin table and transaction table
+
+
+CSS
+*search-result.css		: -adjusted the padding
+*routedetail.css		: -new file, for the styling of route_detail.php
+*signin-popup.css		: -slightly adjusted
+*signin.css			: -slightly adjusted
+*ticketsummary.css		: -slightly adjusted
+*purchasesummary.css		: -new file for purchase_summary.php
+
+
+Include
+*signinpopup.php		: -removed the 'keep me signin option'
+				  -live validation
+				  -removed the code that caused the index error
+*departarrive2.php		: -removed the unused js-folder link
+*userclose.php			: -Remaining seat reseat to origin, when user cancel the reservation
+
+FOLDER
+*pdf				: -new folder, to generate the pdf
+
+-------------------------------------------------------------------------------------------------
+(Version 9.2.0)
+#28/09/2015 by KS Koh based on v9.1.0
+
+MAIN
+*search_ticket.php		: -validation for two-way trip
+				  -select option, based on what user have chosen
+*search_result.php		: -result shown for two-way trip
+
+INCLUDE
+*departarrive2.php		: -retrieve data when user selected the required option
+
+-------------------------------------------------------------------------------------------------
+(Version 9.3.0)
+#30/09/2015 by KS Koh based on v9.1.0
+
+MAIN
+*login.php				: -fixed bugs, when staff login, booking flow not continue solved
+				  	  -add session to support show usernam
+*staff_view_announcement		: -change the styling for pagination (Line 120-134)
+*staff_transaction.php-->transaction.php: -results shown
+
+INLCLUDE
+*signinpopup.php			: -changed the page show, after login
+				  	  -add session to support show username
+*header.php				: -username directly shown in the header
+					  -changed for the name change of transaction.php
+*leftnavi.php				: -changed for the name change of transaction.php
+					  -admin added transaction history
+
+CSS
+*viewannouncement.css			: -change styling for page-selection
+*transactiondetail.css			: -new file
+
+-------------------------------------------------------------------------------------------------
+(Version 10.2.0)
+#30/09/2015 by KS Koh based on v10.1.0
+
+INCLUDE
+*searchticket.php	:-removed the return trip option
+*transaction_detail	:-pdf included
+*searchticket.php	:-able to search
+*slider.php
+*btmnavi.php		: -removed unused part
+*header.php		: - removed unused part
+
+MAIN
+*search_ticket.php	:-removed the return trip option
+*purchase_summary.php	:-platform included
+*admin_profile.php
+*user_profile.php	:-full name for state
+*about_us.php
+
+
+PDF
+*index.php		:-included platform
+
+CSS
+*transactiondetail.css
+
+Prevent unauthorised access
+*add_admin.php
+*add_announcement
+
+-------------------------------------------------------------------------------------------------
+(Version 12.0.0)
+#14/10/2015 by KS Koh based on v10.2.0
+
+MAIN
+*add_admin.php				: -company id's select option based on database
+*add_route.php				: -select option from database for bus number
+					  -validation for select option of vrn
+					  -show cityname instead of code
+*add_staff.php				: -select option from database for Branch
+			 		  -validation for select option of branch
+*admin_edit_announcement.php		: -bug fixed for validation of date
+*admin_edit_staff_detail.php		: -selected the selectoption based on database
+*admin_view_announcement_detail.php	: -bold the contents
+					  -bugs fixed for edit and delete post
+*admin_view_schedule_detail.php		: -show cityname instead of code
+*change_password.php			: -bugs fixed to reject the request when old password is wrong
+*company_detail.php
+ contact_us.php				: -bugs fixed for signin-popup
+*edit_route.php				: -select option from database for bus number
+					  -show cityname instead of code
+*faq.php				: -removed unused part
+*filter_announcement.php		: -bugs fixed for no result problems
+*our_partner.php			: -removed the unused part
+*signup.php				: -minor bug fixed
+*staff_view_announcement_detail.php	: -bolded the contents
+*filter_schedule.php			
+ staff_view_schedule.php
+ staff_view_schedule_detail.php
+ view_route_detail.php
+ view_schedule.php			: -bugs fixed for cityname and price
+*user_view_announcement_detail.php	: -bolded for contents
+*view_announcement_detail.php		: -bolded for contents
+
+*add_branch.php		
+ add_bus.php
+ add_schedule.php
+ admin_edit_announcement.php
+ admin_edit_bus_detail.php
+ admin_edit_staff_detail.php		: -alert when data successfully added
+
+*add_announcement.php
+ add_branch.php
+ add_bus.php
+ ad_company_detail.php
+ add_route.php
+ add_schedule.php
+ add_staff.php
+ admin_edit_announcement.php
+ admin_edit_bus_detail.php
+ admin_edit_staff_detail.php
+ admin_profile.php	
+ admin_view_announcement.php
+ admin_view_announcement_detail.php
+ admin_view_schedule_detail.php
+ admin_view_staff_detail.php
+ cfmsignup.php
+ change_password.php
+ chooseseat.php
+ admin_profile.php
+ edit_branch_detail.php
+ edit_company_detail.php
+ edit_route.php
+ edit_schedule.php
+ edit_staff_profile.php
+ edit_user_profile.php
+ filter_announcement.php
+ filter_branch.php
+ filter_bus.php
+ filter_route.php
+ filter_schedule.php
+ filter_staff.php
+ forgotpw.php
+ reset.php
+ signup.php
+ signup_complete.php			
+ staff_add_announcement.php
+ staff_profile.php
+ staff_transaction.php
+ staff_view_announcement.php
+ staff_view_announcement_detail.php
+ staff_view_schedule.php
+ staff_view_schedule_detail.php
+ user_profile.php
+ user_view_announcement.php
+ user_view_announcement_detail.php
+ view_branch.php
+ view_branch_detail.php
+ view_bus.php
+ view_company_detail.php
+ view_route.php
+ view_route_detail.php
+ view_schedule.php
+ view_staff_detail.php			: -restricted unauthorised access
+
+CSS
+*addbus.css				: -table height adjusted
+*viewannouncementdetail.css
+ editstaffprofile.css
+ edituserprofile.css			: -adjusted the height
+
+-------------------------------------------------------------------------------------------------

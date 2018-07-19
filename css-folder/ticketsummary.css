@@ -1,0 +1,141 @@
+#content-wrapper
+{
+	font-family:Arial;
+	width:1040px;
+	height:770px;
+	background-color:white;
+	padding:20px;
+}
+
+#main-content
+{
+	width: 1000px;
+	height:inherit;
+	margin-left:20px;
+	background-color:#FFF;
+	float:left;
+}
+
+#main-content-title
+{
+	text-align:left;
+	font-size:14pt;
+	font-family:Arial;
+	margin-bottom:30px;
+}
+
+#main-content-left
+{
+	margin-left:120px;
+	width:385px;
+	height:550px;
+	float:left;
+}
+
+#main-content-left-title
+{
+	line-height:30px;
+	width:372.5px;
+	height:30px;
+	background-color:#eeeeee;
+	padding-left:10px;
+	font-size:16px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main-content-left-content
+{
+	border:1px solid #dddddd;
+	width:375px;
+	height:505px;
+	background-color:white;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+#main-content-left-content-wrapper
+{
+	width:410px;
+	float:left;
+	
+}
+
+#main-content-left-content-wrapper p
+{
+	width:200px;
+	float:left;
+}
+
+#main-content-right
+{
+	width:385px;
+	height:550px;
+	float:left;
+	margin-left:5px;
+}
+
+#main-content-right-title
+{
+	line-height:30px;
+	width:372.5px;
+	height:30px;
+	background-color:#eeeeee;
+	padding-left:10px;
+	font-size:16px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main-content-right-content
+{
+	border:1px solid #dddddd;
+	width:375px;
+	height:505px;
+	background-color:white;
+	padding-left:5px;
+}
+
+#main-content-right-content table
+{
+	margin:10px;
+	border-collapse:collapse;
+	height:400px;
+	width:390px;
+}
+
+#main-content-right-content table input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:180px;
+	padding-left:5px;
+	height:25px;
+}
+
+#main-content-right-content a
+{
+	color:#0d4da1;
+	text-decoration:none;
+}
+
+#main-content-right-content a:hover
+{
+	color:orange;
+}
+
+#main-content-right-content input[type="submit"]
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:200px;
+	padding-left:5px;
+	height:25px;
+	margin-left:170px;
+}
+
+#main-content-right-content input[type="submit"]:hover
+{
+	background-color:#eeeeee;
+}

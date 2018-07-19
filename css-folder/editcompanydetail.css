@@ -1,0 +1,88 @@
+#content-wrapper
+{
+	font-family:Arial;
+	width:1080px;
+	height:910px;
+	background-color:white;
+}
+
+#editcompany-wrapper
+{
+	width: 800px;
+	height:inherit;
+	margin-left:20px;
+	background-color:#FFF;
+	float:left;
+}
+
+#editcompany-wrapper-title
+{
+	text-align:left;
+	font-size:14pt;
+	font-family:Arial;
+	margin-bottom:30px;
+}
+
+#editcompanyfrm
+{
+	border:1px solid #dddddd;
+	width:770px;
+	margin-left:10px;
+	box-shadow:0px 0.5px 10px #CCCCCC;
+}
+
+#editcompanyfrm table
+{
+	margin:10px;
+	border-collapse:collapse;
+	height:725px;
+	width:730px;
+}
+
+#editcompanyfrm table input
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:200px;
+	padding-left:5px;
+	height:25px;
+}
+
+#editcompanyfrm table select
+{
+	margin-left:10px;
+	border:1px solid black;
+	border-radius:5px;
+	width:187px;
+	padding-left:5px;
+	height:25px;
+}
+
+#editcompanyfrm p
+{
+	width:270px;
+	font-size:10pt;
+	padding-left:5px;
+}
+
+#editcompany-btn 
+{
+	width:220px;
+	margin-left:660px;
+	margin-bottom:15px;
+}
+
+#editcompany-btn input[type="submit"],#edituserprofile-btn input[type="reset"] 
+{
+	border:2px solid black;
+	border-radius:5px;
+	width:100px;
+	padding-left:5px;
+	height:25px;
+}
+
+#editcompany-btn input[type="submit"]:hover,#edituserprofile-btn input[type="reset"]:hover
+{
+	background-color:#eeeeee;
+}

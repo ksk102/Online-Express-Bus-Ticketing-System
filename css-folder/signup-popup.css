@@ -1,0 +1,33 @@
+#signin-content form
+{
+	font-family:Arial;
+	font-size:11pt;
+	margin-left:30px;
+}
+
+#signin-content input, select
+{
+	border:1px solid silver;
+	margin-bottom:30px;
+	margin-top:5px;
+	width:400px;
+	height:30px;
+	border-radius:10px;
+	padding-left:5px;
+}
+
+#signin-content input[type:"submit"]
+{
+	background-color:cyan;
+}
+
+#signin-content input[type="submit"]:hover
+{
+	opacity:0.5;
+}
+
+#signin-content input:focus
+{
+	background-color:#ccffff;
+	color:red;
+}
